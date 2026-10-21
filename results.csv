@@ -1,0 +1,16 @@
+graph_type,vertices,edges,algorithm,average_time_ns,operation_1,operation_2
+undirected,10,30,Kruskal,31349,11,22
+undirected,10,30,Prim,54999,60,11
+directed,10,30,TopologicalSort,18375,30,0
+directed,10,30,KosarajuSCC,43424,90,1
+directed,10,30,Dijkstra,36741,30,13
+undirected,100,500,Kruskal,342391,217,434
+undirected,100,500,Prim,362116,1000,216
+directed,100,500,TopologicalSort,47283,500,0
+directed,100,500,KosarajuSCC,159783,1500,1
+directed,100,500,Dijkstra,122908,500,149
+undirected,1000,5000,Kruskal,1155608,3534,7068
+undirected,1000,5000,Prim,1822966,10000,3541
+directed,1000,5000,TopologicalSort,622983,5022,5
+directed,1000,5000,KosarajuSCC,1855183,15000,15
+directed,1000,5000,Dijkstra,1567591,4978,1432
