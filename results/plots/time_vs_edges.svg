@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222} .small{font-size:13px} .label{font-size:15px} .title{font-size:21px;font-weight:bold}</style>
+<text x="450.0" y="28" text-anchor="middle" class="title">Average execution time vs. Number of edges</text>
+<line x1="95" y1="279.0" x2="840" y2="279.0" stroke="#ddd"/>
+<text x="85" y="283.0" text-anchor="end" class="small">100,000</text>
+<line x1="95" y1="120.6" x2="840" y2="120.6" stroke="#ddd"/>
+<text x="85" y="124.6" text-anchor="end" class="small">1,000,000</text>
+<line x1="95" y1="55" x2="95" y2="420" stroke="#333"/>
+<line x1="95" y1="420" x2="840" y2="420" stroke="#333"/>
+<text x="22" y="237.5" text-anchor="middle" transform="rotate(-90 22 237.5)" class="label">Average time (ns, log scale)</text>
+<text x="467.5" y="500" text-anchor="middle" class="label">Number of edges</text>
+<text x="95.0" y="442" text-anchor="middle" class="small">30</text>
+<text x="467.5" y="442" text-anchor="middle" class="small">500</text>
+<text x="840.0" y="442" text-anchor="middle" class="small">5,000</text>
+<polyline points="95.0,358.7 467.5,194.3 840.0,110.7" fill="none" stroke="#2563eb" stroke-width="3"/>
+<circle cx="95.0" cy="358.7" r="5" fill="#2563eb"/>
+<circle cx="467.5" cy="194.3" r="5" fill="#2563eb"/>
+<circle cx="840.0" cy="110.7" r="5" fill="#2563eb"/>
+<polyline points="95.0,320.1 467.5,190.5 840.0,79.3" fill="none" stroke="#ea580c" stroke-width="3"/>
+<circle cx="95.0" cy="320.1" r="5" fill="#ea580c"/>
+<circle cx="467.5" cy="190.5" r="5" fill="#ea580c"/>
+<circle cx="840.0" cy="79.3" r="5" fill="#ea580c"/>
+<polyline points="95.0,395.5 467.5,330.5 840.0,153.2" fill="none" stroke="#15803d" stroke-width="3"/>
+<circle cx="95.0" cy="395.5" r="5" fill="#15803d"/>
+<circle cx="467.5" cy="330.5" r="5" fill="#15803d"/>
+<circle cx="840.0" cy="153.2" r="5" fill="#15803d"/>
+<polyline points="95.0,336.3 467.5,246.7 840.0,78.1" fill="none" stroke="#9333ea" stroke-width="3"/>
+<circle cx="95.0" cy="336.3" r="5" fill="#9333ea"/>
+<circle cx="467.5" cy="246.7" r="5" fill="#9333ea"/>
+<circle cx="840.0" cy="78.1" r="5" fill="#9333ea"/>
+<polyline points="95.0,347.8 467.5,264.8 840.0,89.7" fill="none" stroke="#0891b2" stroke-width="3"/>
+<circle cx="95.0" cy="347.8" r="5" fill="#0891b2"/>
+<circle cx="467.5" cy="264.8" r="5" fill="#0891b2"/>
+<circle cx="840.0" cy="89.7" r="5" fill="#0891b2"/>
+<line x1="115" y1="465" x2="140" y2="465" stroke="#2563eb" stroke-width="3"/>
+<text x="147" y="470" class="small">Kruskal</text>
+<line x1="260" y1="465" x2="285" y2="465" stroke="#ea580c" stroke-width="3"/>
+<text x="292" y="470" class="small">Prim</text>
+<line x1="405" y1="465" x2="430" y2="465" stroke="#15803d" stroke-width="3"/>
+<text x="437" y="470" class="small">TopologicalSort</text>
+<line x1="550" y1="465" x2="575" y2="465" stroke="#9333ea" stroke-width="3"/>
+<text x="582" y="470" class="small">KosarajuSCC</text>
+<line x1="695" y1="465" x2="720" y2="465" stroke="#0891b2" stroke-width="3"/>
+<text x="727" y="470" class="small">Dijkstra</text>
+</svg>
